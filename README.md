@@ -7,3 +7,4 @@ Deux buttons pour <a href="supprimer.php">supprimer</a> ou bien <a href="modifie
 
 Deuxième page <a href="ajouter.php">ajouter.php</a> avec un formulaire qui permet d'ajouter un utilisateur à la base de données.
 ![pika-2022-05-08T18_11_06 745Z](https://user-images.githubusercontent.com/92400545/167309702-4e3aab1f-90de-4cf8-8335-8f68d32f14f5.png)
+
