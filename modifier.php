@@ -49,13 +49,13 @@
             <form method="POST">
                 <input name="id" value="<?php echo $stagi->id?>" hidden> <!-- conservation de l'id dans un input -->
                 <label for="nom" class="form-label">Entrer un nouveau nom:</label><br>
-                <input type="text" name="nom" class="form-control"><br>
+                <input type="text" name="nom" class="form-control" placeholder="<?php echo $stagi->nom ?>"><br>
 
                 <label for="prenom" class="form-label">Entrer un nouveau prenom:</label><br>
-                <input type="text" name="prenom" class="form-control"><br>
+                <input type="text" name="prenom" class="form-control" placeholder="<?php echo $stagi->prenom ?>"><br>
                 
                 <label for="age" class="form-label">Enter l'age:</label><br>
-                <input type="number" name="age" class="form-control"><br>
+                <input type="number" name="age" class="form-control" placeholder="<?php echo $stagi->age ?>"><br>
 
                 <button type="submit" class="btn btn-primary" name="confirmer">Confimer</button>
             </form>
