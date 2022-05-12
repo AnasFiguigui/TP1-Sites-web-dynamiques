@@ -11,7 +11,7 @@
 
     <?php
 
-        //redirection a index.php si modifier is not isset
+        //redirection a index.php si modifier is not isset (gestion d'exeptions)
         if(!isset($_POST['id'])){
             header('location:index.php');
         }
